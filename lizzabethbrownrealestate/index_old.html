@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Lizzabeth Brown Real Estate</title>
+    <link rel="shortcut icon" href="/img/iconHouse.ico" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/LBR.css" rel="stylesheet" type="text/css" />
+    <link href="/css/cycle.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <!--[if IE]>
+            <link rel="stylesheet" href="../../Content/jqGalScrollIE.css" type="text/css" />
+    <![endif]-->
+
+    <script type="text/javascript" src="/Scripts/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.dimensions.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.cycle.all.pack.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/Scripts/ui-personalized-1.5.2.min.js"></script>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js"></script>
+
+    <script type="text/javascript">
+
+        var MyBusidex = [];
+
+        var BusidexItem = function (fileId, name, phone, email) {
+            this.FrontFileId = ko.observable(fileId);
+            this.Name = ko.observable(name);
+            this.Phone = ko.observable(phone);
+            this.Email = ko.observable(email);
+        };
+        $(document).ready(function () {
+
+            $.ajax({
+                url: 'https://www.busidexapi.com/api/Busidex/',
+                data: { id: 65 },
+                cache: false,
+                success: function (response) {
+                    var oResponse = JSON.parse(response);
+                    for (var i = 0; i < oResponse.MyBusidex.Busidex.length; i++) {
+                        var item = oResponse.MyBusidex.Busidex[i].Card;
+                        var phone = item.PhoneNumbers.length > 0 ? item.PhoneNumbers[0].Number : '';
+                        MyBusidex.push(new BusidexItem(item.FrontFileId, item.Name, phone, item.Email));
+                    }
+                    //ko.applyBindings(MyBusidex);
+                },
+                error: function () {
+                    alert('error');
+                }
+            });
+
+        });
+
+        function getWelcomeClass() {
+            if (window.navigator.appName == "Microsoft Internet Explorer") {
+                return "WelcomeIE";
+            }
+            else {
+                return "Welcome";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div style="background-image:url('/img/top.png'); height:322px; width:100%; position:absolute; top:-3px; left:0px;"></div>
+    <div id="inner">
+
+        <div class="header">
+            <div class="header_text">Lizzabeth&nbsp;Brown</div><div class="header_text2">RealEstate&nbsp;Consultant</div>
+            <div class="header_phone">Call&nbsp;401.486.NEST</div><div class="header_phone2">401.486.6378</div>
+        </div>
+        <div class="headerImg">
+            <img id="imgBanner" src="/img/Banner4.png" alt="Lizabeth Brown Realestate" width="750" style="width:100%;" />
+        </div>
+        <div runat="server" ID="welcomeBar" class="welcomebar">
+            <div class="SiteMap">
+
+            </div>
+
+            <div id="Welcome" class="Welcome">
+
+            </div>
+        </div>
+        <div class="contentDiv">
+            <table style="width:100%; margin-left:25px; margin-right:25px; border-collapse:collapse;">
+                <tr>
+                    <td colspan="2">
+                        <fieldset id="fldKW" style="margin-top:30px; text-align:center; display:block;width:90%;background: #fff;">
+                            <legend>Search For A House</legend>
+                            <a href="http://lizzabethbrown.yourkwagent.com" target="_blank" class="imgLink">
+                                <img src="/img/kw_linear_color_trans.gif" class="imgLink" style="width:70%;padding-top:10px" />
+                            </a>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:50%; vertical-align: top;">
+                        <fieldset id="Fieldset1" style="background:#fff;margin-top:30px; text-align:center; display:block">
+                            <legend>Connecting with Busidex</legend>
+                            <a href="http://www.busidex.com" target="_blank" class="imgLink">
+                                <img src="/img/BusidexLogo4.png" class="imgLink" style="height:110px; width: 110px; padding-top:10px" />
+                            </a>
+                        </fieldset>
+                        <fieldset id="Fieldset2" style="background:#fff;margin-top:30px; text-align:center; display:block">
+                            <legend>For Beekeepers</legend>
+                            <a href="http://beeyondthenest.blogspot.com/" target="_blank" class="imgLink">
+                                <img src="/img/honey.jpg" class="imgLink" style="height:30%; width: 30%; padding-top:10px" />
+                            </a>
+                        </fieldset>
+
+                    </td>
+                    <td style="width:50%;">
+                        <fieldset id="Fieldset4" style="background:#fff;margin-top:30px; text-align:center; display:block">
+                            <legend>Follow me on...</legend>
+                            <a href="http://twitter.com/lizzabethbrown" class="linktableButton" target="_blank">
+                                <img src="/img/Twitty.png" style="width:50px;margin:10px;" />
+                            </a>
+                            <a href="http://pinterest.com/lizzbethbrown/" class="linktableButton" target="_blank">
+                                <img src="/img/pinterest.png" style="width:50px;margin:10px;" />
+                            </a>
+                        </fieldset>
+                        <fieldset id="Fieldset3" style="background:#fff;margin-top:30px; text-align:center; display:block">
+                            <legend>For Bakers</legend>
+                            <a href="http://insidethemixingbowl.blogspot.com/" target="_blank" class="imgLink">
+                                <img src="/img/baking4.png" class="imgLink" style="height:60%; width: 60%; padding-top:10px" />
+                            </a>
+                        </fieldset>
+                        <!--<p>
+                                <h3>My Busidex</h3>
+                                <ul data-bind="foreach: MyBusidex">
+                                    <li style="clear:both; padding: 5px; list-style: none;">
+                                        <img data-bind="attr: {src: 'http://busidexcdn.blob.core.windows.net/cards/' + FrontFileId() + '.jpg'}" style="height: 100px; width: 130px;float: left;"/>
+                                        <strong data-bind="html: Name()"></strong><br/>
+                                        <span data-bind="html: Email()"></span><br/>
+                                        <span data-bind="html: Phone()"></span>
+                                    </li>
+                                </ul>
+                            </p>-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p style="border: solid 1pt #ccc; border-radius: 10px; width: 90.5%; padding: 10px;font-size: 22px; text-align: center;">
+                            Pardon our appearance while we make some minor adjustments.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="modal hide fade" id="comingSoon">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Comming Soon</h3>
+            </div>
+            <div class="modal-body">
+                <p>This feature is still being worked on. Check back in a day or two and we should be ready.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

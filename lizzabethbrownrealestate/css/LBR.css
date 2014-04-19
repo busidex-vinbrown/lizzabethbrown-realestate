@@ -1,0 +1,708 @@
+html 
+{
+    background:url('/img/onepix.png');
+}
+    
+body
+{
+    background-color:silver;
+    background-repeat:repeat-x;
+    background-position:top;
+    background:url('/img/onepix.png');
+    font-family:verdana,arial;
+    font-size:9pt;
+}
+
+th
+{
+    text-align:left;
+}
+
+td
+{
+    vertical-align:top;
+}
+
+#inner
+{
+    min-height:400px;
+    height:100%;
+    left: 50%;
+    margin-left: -350px;
+    text-align:left;
+    background-color:white;
+    border-style:outset;
+    border-width:1pt;
+    border-color:Silver;	
+    position: relative;
+    width:750px;
+    vertical-align:top;
+    padding-bottom:35px;
+}
+
+.SiteMap
+{
+    display:inline; 
+    float:left;
+}
+
+.breadcrumbButton a
+{ 
+    font-family:Verdana;
+    font-size:.85em;
+    width:90px;
+    color:White;
+    height:15px;
+    padding-left:4px;
+    padding-right:0px;
+    padding-top:3px;
+    text-decoration:none;
+    display:inline;
+}
+
+.breadcrumbButton a:hover
+{
+    color:Silver;
+}
+
+.breadcrumbCurrent
+{
+    color:White;
+    font-family:Verdana;
+    font-size:.85em;
+    display:inline;
+    
+}
+
+.bottom
+{
+    left: 50%;
+    margin-left: -300px;
+    text-align:center;
+    position: relative;
+    width:650px;
+    color:Olive; 
+    font-size:1em;
+    border-top:solid 1pt silver;
+    top: -27px;
+    padding-top:5px;
+    padding-bottom: 2px;
+}
+
+.contentDiv
+{
+    margin-top:15px;
+    vertical-align:top;
+    position:relative;
+    text-align:left;
+    min-height:300px;
+    height:auto;
+    margin-bottom:15px;
+}
+
+.homepageLeftSection
+{
+    display:block;
+    margin-bottom:15px;
+    padding-left:20px;
+    vertical-align:top;
+    margin-right:25px;
+}
+
+.homepageRightSection
+{
+    display:block;
+    margin-bottom:15px;
+    vertical-align:top;
+    margin-left:25px;
+}
+
+.featuredProperty
+{
+    height:140px;
+    width:180px;
+    border:none 0px;
+}
+
+.imgLink
+{
+    border:none 0px;
+}
+
+.fixedHeader
+{
+    background-color:Silver;	 
+    position:relative; 
+    font-family:Verdana;
+}
+
+.label
+{
+    color:#996600;
+    font-family:Verdana;
+    font-size:small;
+}
+
+.UserName
+{
+    width:120px;
+}
+
+.biglabel
+{
+    color:#996600;
+    font-family:Verdana;
+    font-size:medium;
+}
+
+.rss
+{
+    color:Orange;
+    font-family:Verdana;
+    font-size:small;
+}
+
+.text
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:Maroon;
+}
+
+.login
+{
+    width:100px;
+}
+
+.AdminPanel
+{
+    font-family:Verdana;
+    font-size:small;
+    width:310px;
+    margin:0px;
+    text-align:left;
+}
+
+.UserPanel
+{
+    font-family:Verdana;
+    font-size:small;
+    width:300px;
+    margin-right:4px;
+    margin-left:4px
+}
+    
+.resultsPanel
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:Maroon;
+    background-color:Silver;
+    top:50px;
+}
+
+.LangSelect
+{
+    position:absolute;
+    top:113px;
+    
+    font-family:Verdana;
+    font-size:small;
+    color:White;
+}
+
+.headerImage
+{
+    margin:0pt;
+    border-style:none;
+    border-collapse:collapse;
+}
+
+.headerDiv
+{
+    border-left-style:solid;
+    border-right-style:solid;
+    border-width:1pt;
+    border-collapse:collapse;
+    width:750px;
+    background-color:White;
+}
+
+.header
+{
+    width:742px;
+    margin-left:-2px;
+    margin-top:-1px;
+    padding-bottom:0px;
+    padding-top:10px;
+    padding-left:10px;
+    margin-bottom:0px;
+    border-style:none;
+    border-collapse:collapse;
+    background:#333 url('/content/images/button.gif');
+    height:50px;
+    font-family:Verdana;
+    color:White;
+    position:relative;
+}
+
+.header_text
+{
+    top:-8px;
+    color:White;
+    font-size:3em;
+    text-align:left;
+    vertical-align:bottom;
+    width:200px;
+    letter-spacing:2px;
+    font-family:Georgia;
+    background-color:Transparent;
+    display:inline;
+    position:relative;
+    float:left;
+}
+
+.header_text2
+{
+    top:20px;
+    left:-70px;
+    color:White;
+    font-size:1.6em;
+    text-align:left;
+    width:200px;
+    letter-spacing:1px;
+    font-family:Georgia;
+    display:inline;
+    position:relative;
+    
+}
+
+.header_phone
+{
+    top:-5px;
+    left:105px;
+    font-family:Verdana;
+    color:White;
+    font-size:2.2em;
+    width:100px;
+    font-family:Georgia;
+    display:inline;
+    position:relative;
+}
+
+.header_phone2
+{
+    top:16px;
+    left:0px;
+    font-family:Verdana;
+    color:White;
+    font-size:1.4em;
+    width:100px;
+    font-family:Georgia;
+    display:inline;
+    position:relative;
+}
+
+.headerImg
+{
+    width:752px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    margin-left:-2px;
+    border-style:none;
+    border-collapse:collapse;
+    background:#333 ;
+    background-position:center;
+    height:50px;
+    font-family:Verdana;
+    color:White;
+    font-size:x-large;
+    text-align:left;
+}
+.welcomebar
+{
+    width:752px;
+    margin-left:-2px;
+    height:15px;
+    border-color:Gray;
+    border-collapse:collapse;
+    text-align:left;
+    vertical-align:bottom;
+    background:#333 url(http://lizzabethbrown.com/content/images/button.gif);
+    background-position:center;
+}
+
+.historybar
+{
+    width:752px; 
+    margin-left:-2px;
+    height:20px;
+    border-color:Gray;
+    text-align:left;
+    vertical-align:bottom;
+    background:#333 url(http://lizzabethbrown.com/content/images/button.gif);
+    background-position:center;
+}
+
+.historyBarButton
+{
+    font-family:Verdana;
+    font-size:small;
+    font-style:italic;
+    color:Silver;
+}
+
+.historyBarText
+{
+    font-family:Verdana;
+    font-size:small;
+    font-style:italic;
+    color:Silver;
+}
+    
+.menubar
+{
+    width:752px;
+    margin-left:-2px;
+    height:20px;
+    border-color:Gray;
+    text-align:right;
+    vertical-align:bottom;
+    background-color:Olive; 
+    background-position:center;
+    color:White;
+}
+
+.menubarButton a
+{
+    font-family:Verdana;
+    font-size:.85em;
+    color:White;
+    padding-left:4px;
+    padding-right:25px;
+    padding-top:3px;
+    float:right;
+    text-decoration:none;
+    text-align:center;
+}
+
+.menubarButton a:hover
+{
+    color:Silver;
+}
+
+.smallmenubarButton
+{
+    font-family:Verdana;
+    font-size:.65em;
+    color:Silver;
+    height:15px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:3px;
+    text-decoration:none;
+}
+
+.smallmenubarButton:hover
+{
+    color:White;
+}
+
+.linktableButton
+{
+    font-family:Verdana;
+    font-size:.95em;
+    color:Olive;
+    border-style:none;
+    cursor:pointer;
+    text-decoration:none;	
+    text-align:left;
+    margin-bottom:2px;
+}
+
+.linktableButton:hover
+{
+    color:Gray;
+}
+
+.linktableButton a
+{
+    font-family:Verdana;
+    font-size:.95em;
+    color:Olive;
+    border-style:none;
+    cursor:pointer;
+    text-decoration:none;	
+    text-align:left;
+}
+
+.linktableButton a:hover
+{
+    color:Gray;
+}
+
+.helpfulLinksUrl
+{
+    font-family:Verdana;
+    font-size:.75em;
+    color:#999900;
+    height:15px;
+    text-align:left;
+}
+
+.helpfulLinks
+{
+    font-family:Verdana;
+    font-size:.85em;
+    color:#999900;
+    height:15px;
+    text-align:left;
+    text-decoration:none;
+    
+}
+
+.helpfulLinks:hover
+{
+    color:Gray;
+    text-decoration:underline;
+}
+
+.resourceListButton
+{
+    font-family:Verdana;
+    font-size:1.2em;
+    color:#996600;
+    height:15px;
+    text-align:left;
+    text-decoration:none;
+}
+
+li.resourceCategory
+{
+    cursor: pointer;
+    list-style: none;
+    line-height: 16px;
+    color: #996600;
+}
+
+li.resourceCategory span:hover
+{
+    text-decoration: underline;
+}
+
+li.resourceCategory img
+{
+    padding: 1px;
+    margin-right: 5px;
+}
+
+ul.resourceItems
+{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+ul.resourceItems li
+{
+    line-height: 16px;
+}
+
+
+.photo
+{
+    height:95px;
+    width:115px;
+}
+
+
+.textfield
+{
+    font-family:Verdana;
+    font-size:small;
+}
+
+.whiteLabel
+{
+    font-family:Verdana;
+    color:Silver;
+    font-size:.75em;
+    border-collapse:collapse;
+}
+
+.AdminLinkTable
+{
+    border-style:solid;
+    border-width:thin;
+    text-align:left;
+    border-collapse:collapse;
+    width:100%;
+}
+
+.errortext
+{
+    color:Red;
+    font-family:Verdana;
+    font-size:.75em;
+}
+
+.editLink
+{
+    font-family:Verdana;
+    font-size:.75em;
+    position:static;
+    color:Olive;
+    text-decoration:none;	
+}
+.editLink:hover
+{
+    color:Gray;
+    text-decoration:underline;
+}
+
+.errorText
+{
+    font-family:Verdana;
+    font-size:.85em;
+}
+
+fieldset {
+    padding: 10px;        /* padding in fieldset support spotty in IE */
+    margin: 0 0 1em 0;
+    position:relative;
+    border: 1px solid #BFBAB0;  
+    background-color : #F2EFE9;
+    width:300px;
+    text-align:left;
+    vertical-align:top;
+}
+
+legend 
+{
+    font-size:1.3em;
+    color:Black;
+    font-family:Verdana; 
+    left: -3px;  
+    margin-left:10px;
+    margin-top: -1.25em;
+    display: inline-block;
+    position:absolute;
+    /*background-color:Transparent;*/
+    background-color:inherit;
+    z-index:10;
+}
+
+fieldset ul {  
+    padding-top: 0.25em;
+}
+
+.aboutUsText
+{
+    margin:10px 10px 0 10px;
+    padding-bottom:10px;
+}
+
+.addPropertyRow
+{
+    margin-bottom:5px;
+}
+.addPropertyLabel
+{
+    text-align:right;
+    vertical-align:middle;
+}
+
+.addPropertyField
+{
+    text-align:left;
+}
+
+.Welcome
+{
+    float:right;
+    text-align:right; 
+    color:White; 
+    font-size: .85em; 
+    width:200px; 
+    position:relative;
+    
+}
+
+.ErrorText
+{
+    color:Red;
+    font-size:.9em;
+}
+
+.Welcome a
+{
+    color:White; 
+    font-size: .85em; 
+    position:relative;
+}
+
+
+.ErrorContainer
+{
+    font-size:.9em;
+    text-align:left;
+    margin-left:15px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.ValidateErrorContainer
+{
+    font-size:.9em;
+    text-align:left;
+    margin-left:75px;
+}
+
+label.error {
+        padding-left: 16px;
+        margin-left: .3em;
+        display:block;
+        width:200px;
+        color:Red;
+    }
+
+a.featured, a.featured:visited
+{
+    text-decoration: none;
+    vertical-align: middle;
+    position:absolute;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Verdana;
+    color: Olive;
+    background-color: Silver;
+    text-align:center;
+    width: 180px;
+    z-index: 99;
+    margin-left: 0px;
+    margin-top: 85px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    filter: alpha(opacity=60);
+    opacity: .7;
+    moz-opacity: .7;
+}
+    
+span.sold
+{
+    vertical-align: middle;
+    display: inline-block;
+    position:absolute;
+    font-size: 28pt;
+    font-weight: bold;
+    color: #000000;
+    background-color: Silver;	
+    width: 181px;
+    z-index: 99;
+    left: 22%;
+    margin-left: 0px;
+    margin-top: 30px;
+    filter: alpha(opacity=60);
+    opacity: .7;
+    moz-opacity: .7;
+}

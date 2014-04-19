@@ -1,0 +1,10 @@
+
+#main { background: #fff; margin: 0 20px 20px 20px }
+#main h1 { padding:0; margin-top: 20px }
+#header { background-color: #eee; font-weight: normal; margin:0; padding:10px; font-size: small }
+
+.pics { height: 365px; width: 400px; padding:0; margin:0; overflow: hidden }
+.pics img { height: 350px; width: 420px; padding: 0px; border: 1px solid #ccc; background-color: #eee; top:0; left:0 }
+
+#main h2 { text-align: left }
+
