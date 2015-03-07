@@ -76,9 +76,13 @@
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="full-width.html" />
+    <Content Include="img\abr_0.jpg" />
     <Content Include="img\baking4.png" />
     <Content Include="img\Banner4.png" />
     <Content Include="img\BusidexLogo4.png" />
+    <Content Include="img\Graduate-Realtor-Institute-Horiz-RGB.jpg" />
+    <Content Include="img\hs2.jpg" />
+    <Content Include="img\hs.jpg" />
     <Content Include="img\honey.jpg" />
     <Content Include="img\iconHouse.ico" />
     <Content Include="img\kw_linear_color_trans.gif" />
@@ -154,6 +158,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\lizzabethbrown %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\lizzabethbrown - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\lizzabethbrown - Web Deploy %282%29.pubxml" />
     <None Include="Web.Debug.config">
