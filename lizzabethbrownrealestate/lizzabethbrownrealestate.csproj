@@ -80,7 +80,9 @@
     <Content Include="img\baking4.png" />
     <Content Include="img\Banner4.png" />
     <Content Include="img\BusidexLogo4.png" />
+    <Content Include="img\busidex_icon.png" />
     <Content Include="img\Busidex_logo_hor.png" />
+    <Content Include="img\properties\D60.jpg" />
     <Content Include="img\Graduate-Realtor-Institute-Horiz-RGB.jpg" />
     <Content Include="img\hs2.jpg" />
     <Content Include="img\hs.jpg" />
@@ -92,6 +94,7 @@
     <Content Include="img\nest.jpg" />
     <Content Include="img\onepix.PNG" />
     <Content Include="img\pinterest.png" />
+    <Content Include="img\properties\D81.jpg" />
     <Content Include="img\properties\img1.JPG" />
     <Content Include="img\properties\img2.JPG" />
     <Content Include="img\properties\img3.JPG" />

@@ -128,7 +128,9 @@ td
 {
     border:none 0px;
 }
-
+h3 a.imgLink:hover, h3 a.imgLink small:hover {
+    text-decoration: none;
+}
 .fixedHeader
 {
     background-color:Silver;	 
